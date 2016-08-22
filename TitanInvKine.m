@@ -1,5 +1,5 @@
 % =========================================================================
-% ‹t‰^“®Šw ŒvZŠÖ” Inverse kinematics calculation function
+% ‹t‰^“®Šw ŒvZŠÖ” Inverse kinematics calculation function test2
 %
 % Œn—ñ‚É•À‚ÔƒxƒNƒgƒ‹‚Å—^‚¦‚ç‚ê‚½(x,y,z)‚É‚Â‚¢‚Ä‹t‰^“®Šw‚ğ‰ğ‚­
 % Solving the inverse kinematics for the given vector arranged in time series (x, y, z)

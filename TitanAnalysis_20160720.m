@@ -1,4 +1,4 @@
-
+%test
 % TITAN Setting and Analysis Prog.
 
 clear all;

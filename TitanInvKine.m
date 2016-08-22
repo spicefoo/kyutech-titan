@@ -4,7 +4,7 @@
 % 時系列に並ぶベクトルで与えられた(x,y,z)について逆運動学を解く
 % Solving the inverse kinematics for the given vector arranged in time series (x, y, z)
 % l1、l2、l3はリンク長 link length
-% 
+% hyjm
 % T1（θ1）：x軸からみて脚先までの向き
 % T2（θ2）：l1に対して水平線を引いたときのl2までの角度
 % T3（θ3）：l2の先端よりl1に対して水平線を引いたときのl3までの角度

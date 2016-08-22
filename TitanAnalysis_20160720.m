@@ -1,4 +1,3 @@
-%test2
 % TITAN Setting and Analysis Prog.
 
 clear all;

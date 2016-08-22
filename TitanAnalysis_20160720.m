@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 %test2
+=======
+%test
+>>>>>>> 002263081b7b2bc11b08fe1f5de64b9807dd9c09
 % TITAN Setting and Analysis Prog.
 
 clear all;

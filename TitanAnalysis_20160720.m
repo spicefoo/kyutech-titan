@@ -21,7 +21,7 @@ L  = [l1, l2, l3];
 Gait = 'Crawl';
 
 % 進行方向：Forward、Back、Right、Left, Stop
-Move = ['F'; 'B'; 'R'; 'L'];
+Move = ['F'; 'B'; 'R'; 'L'; 'CW'; 'CCW'];
 % MoveSelect = 1;
 % Name = strcat(Gait, Move(MoveSelect));
 
@@ -62,7 +62,7 @@ LegP0 = [ -50,  50, -50,  50;...
 % Theta line: [θ1, θ2, θ3] T, LegTheta column: θ1, θ2, θ3 each of time-series data
 [ Theta ] =  TitanInvKine(P, L);
 
-for AllMove = 1: 1: 4
+for AllMove = 1: 1: 6
     % 各脚毎の角度に変換（左前：１、右前：２、左後：３、右後：４）
     % LegTheta行：[θ1,θ2,θ3]T、LegTheta列：θ1,θ2,θ3それぞれの時系列データ
     % LegThetaページ：脚1~4について
@@ -90,4 +90,6 @@ F = MoveTheta(:,:,:,1);
 B = MoveTheta(:,:,:,2);
 R = MoveTheta(:,:,:,3);
 L = MoveTheta(:,:,:,4);
+CW = MoveTheta(:,:,:,5);
+CCW = MoveTheta(:,:,:,6);
 

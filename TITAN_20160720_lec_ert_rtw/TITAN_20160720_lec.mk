@@ -2,7 +2,7 @@
 ## Makefile generated for Simulink model 'TITAN_20160720_lec'. 
 ## 
 ## Makefile     : TITAN_20160720_lec.mk
-## Generated on : Tue Aug 23 12:55:07 2016
+## Generated on : Fri Sep 23 13:48:45 2016
 ## MATLAB Coder version: 3.1 (R2016a)
 ## 
 ## Build Info:

@@ -1,2 +1,0 @@
-# kyutech-titan
-# kyutech-titan

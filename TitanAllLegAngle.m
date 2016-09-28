@@ -24,13 +24,21 @@ function [ LegTheta ] = TitanAllLegAngle(Theta, Gait, Move, StepSize)
 
     switch Move
         case 'B'
-            LegTheta(:,:,:) = fliplr(LegTheta(:,:,:));
+            LegTheta(:,:,:) = (LegTheta(:,:,:));
         case 'R'
-            LegTheta(:,:,2) = fliplr(LegTheta(:,:,2));
-            LegTheta(:,:,4) = fliplr(LegTheta(:,:,4));
+            LegTheta(:,:,2) = (LegTheta(:,:,2));
+            LegTheta(:,:,4) = (LegTheta(:,:,4));
         case 'L'
-            LegTheta(:,:,1) = fliplr(LegTheta(:,:,1));
-            LegTheta(:,:,3) = fliplr(LegTheta(:,:,3));
+            LegTheta(:,:,1) = (LegTheta(:,:,1));
+            LegTheta(:,:,3) = (LegTheta(:,:,3));
+        %case 'B'
+         %   LegTheta(:,:,:) = fliplr(LegTheta(:,:,:));
+        %case 'R'
+         %   LegTheta(:,:,2) = fliplr(LegTheta(:,:,2));
+          %  LegTheta(:,:,4) = fliplr(LegTheta(:,:,4));
+        %case 'L'
+         %   LegTheta(:,:,1) = fliplr(LegTheta(:,:,1));
+          %  LegTheta(:,:,3) = fliplr(LegTheta(:,:,3));
      %   case 'C'
      %      LegTheta(:,:,:) = fliplr(LegTheta(:,:,:));
     %    case 'W'
